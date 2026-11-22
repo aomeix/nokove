@@ -34,7 +34,7 @@ Object.defineProperty(window, "usercolor", {
 	}
 });
 
-const SERVERURL = "ws://localhost:8080";
+const SERVERURL = "wss://nokove.onrender.com/";
 const socket = new WebSocket(SERVERURL);
 socket.addEventListener("message", (e) => {
 	const data = JSON.parse(e.data);
