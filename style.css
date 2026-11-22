@@ -1,6 +1,6 @@
 @font-face {
 	font-family: LTRenovate;
-	src: url(/resource/LTR.woff2);
+	src: url(resource/LTR.woff2);
 }
 body {
 	font-family: LTRenovate, sans-serif;
